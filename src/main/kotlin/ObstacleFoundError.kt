@@ -1,0 +1,3 @@
+class ObstacleFoundError : Throwable() {
+
+}

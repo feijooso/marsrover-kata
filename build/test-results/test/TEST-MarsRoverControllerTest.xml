@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MarsRoverControllerTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2021-10-20T15:19:58" hostname="DESKTOP-4HFR3CK" time="0.131">
+  <properties/>
+  <testcase name="moving backwards facing west increments x position()" classname="MarsRoverControllerTest" time="0.053"/>
+  <testcase name="moving forward facing west decrements x position()" classname="MarsRoverControllerTest" time="0.001"/>
+  <testcase name="moving when there is an obstacle gives error message()" classname="MarsRoverControllerTest" time="0.0"/>
+  <testcase name="turning right facing east changes direction to south()" classname="MarsRoverControllerTest" time="0.001"/>
+  <testcase name="colliding with an obstacle stops the command execution()" classname="MarsRoverControllerTest" time="0.001"/>
+  <testcase name="moving and turning changes position in several directions()" classname="MarsRoverControllerTest" time="0.001"/>
+  <testcase name="turning left facing west changes direction to south()" classname="MarsRoverControllerTest" time="0.0"/>
+  <testcase name="moving forward facing east increments x position()" classname="MarsRoverControllerTest" time="0.0"/>
+  <testcase name="[1] 0, 0, 0:1:N:OK" classname="MarsRoverControllerTest" time="0.021"/>
+  <testcase name="[2] 0, 1, 0:2:N:OK" classname="MarsRoverControllerTest" time="0.001"/>
+  <testcase name="[3] 0, 2, 0:3:N:OK" classname="MarsRoverControllerTest" time="0.001"/>
+  <testcase name="moving backwards facing east decrements x position()" classname="MarsRoverControllerTest" time="0.0"/>
+  <testcase name="turning left facing south changes direction to east()" classname="MarsRoverControllerTest" time="0.0"/>
+  <testcase name="[1] FFFF, 0:4:N:OK" classname="MarsRoverControllerTest" time="0.001"/>
+  <testcase name="[2] FBFF, 0:2:N:OK" classname="MarsRoverControllerTest" time="0.001"/>
+  <testcase name="turning left facing north changes direction to west()" classname="MarsRoverControllerTest" time="0.0"/>
+  <testcase name="moving forward facing south decrements y position()" classname="MarsRoverControllerTest" time="0.001"/>
+  <testcase name="moving backwards facing north decrements y position()" classname="MarsRoverControllerTest" time="0.001"/>
+  <testcase name="turning right facing west changes direction to north()" classname="MarsRoverControllerTest" time="0.0"/>
+  <testcase name="moving backwards facing south increments y position()" classname="MarsRoverControllerTest" time="0.0"/>
+  <testcase name="turning right facing south changes direction to west()" classname="MarsRoverControllerTest" time="0.001"/>
+  <testcase name="turning left facing east changes direction to north()" classname="MarsRoverControllerTest" time="0.001"/>
+  <testcase name="edges are wrapped()" classname="MarsRoverControllerTest" time="0.0"/>
+  <testcase name="turning right facing north changes direction to east()" classname="MarsRoverControllerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
